@@ -8,6 +8,24 @@
     <title>JS-Counter</title>
   </head>
   <body>
+    <h2 id="count">0</h2>
+    <h3>Setup</h3>
+    <div class="buttons">
+      <button onclick="start()">Start</button>
+      <button onclick="pause()">Pause</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+    <h3>Count</h3>
+    <div class="buttons">
+      <button onclick="setCountUp(true)">Count Up</button>
+      <button onclick="setCountUp(false)">Count Down</button>
+    </div>
+    <div class="inputs">
+      <h3>Set to</h3>
+      <input type="number" value="0" id="set" />
+      <h3>Step</h3>
+      <input type="number" value="2" id="step" />
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
